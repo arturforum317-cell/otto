@@ -1,8 +1,8 @@
 export default function DiamondBackgroundTailwind() {
   return (
-    <div className="relative min-h-screen w-full bg-white overflow-hidden">
+    <div className="absolute inset-0 -z-10 w-full h-full bg-white overflow-hidden">
       {/* Container para o padrão de losangos */}
-      <div 
+      <div
         className="absolute inset-0 bg-[length:20px_20px] bg-repeat"
         style={{
           backgroundImage: `
@@ -14,14 +14,9 @@ export default function DiamondBackgroundTailwind() {
           backgroundPosition: '0 0, 0 10px, 10px -10px, -10px 0px'
         }}
       />
-      
+
       {/* Overlay para suavizar */}
       <div className="absolute inset-0 bg-white/70" />
-      
-      {/* Container vazio (sem children) */}
-      <div className="relative z-10">
-        {/* Conteúdo fixo ou vazio */}
-      </div>
     </div>
   );
 }
