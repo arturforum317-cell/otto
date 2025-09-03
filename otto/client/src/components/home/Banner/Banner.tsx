@@ -37,7 +37,7 @@ export default function Banners(props: { className?: string }) {
             <div className="text-white text-lg md:text-xl lg:text-2xl mb-6 drop-shadow-lg">
               Nosso software usa IA avançada para identificar e destacar animais automaticamente.
             </div>
-            <Link href="/ia">
+            <Link href="/Ia">
               <button className="bg-green-500 text-white px-6 py-2 rounded-md shadow-md hover:bg-green-600 transition-colors">
                 Comprar
               </button>
