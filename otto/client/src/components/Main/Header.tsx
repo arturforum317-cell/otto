@@ -15,9 +15,14 @@ export default function Header() {
     <header className="sticky top-0 bg-green-400 shadow-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo / Título */}
-        <Link href="/page">
-          <h1 className="text-xl font-bold cursor-pointer">OTTO</h1>
-        </Link>
+        <Link href="/" className="flex items-center gap-2 cursor-pointer">
+  <img 
+    src="/path-to-your-icon.png" 
+    alt="Ícone OTTO" 
+    className="w-6 h-6 object-contain" 
+  />
+  <h1 className="text-xl font-bold">OTTO</h1>
+</Link>
 
         {/* Botão do menu no mobile */}
         <button

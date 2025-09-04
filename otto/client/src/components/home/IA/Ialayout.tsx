@@ -13,20 +13,8 @@ export default function Page() {
                 Uma breve descrição do seu produto/serviço. Explique o valor
                 em 1–2 frases e convide o usuário a agir.
               </p>
-              <div className="flex gap-3">
-                <a
-                  href="#"
-                  className="inline-flex items-center justify-center rounded-2xl bg-white text-green-800 font-semibold px-5 py-3 shadow hover:shadow-md transition"
-                >
-                  Call to Action
-                </a>
-                <a
-                  href="#"
-                  className="inline-flex items-center justify-center rounded-2xl ring-1 ring-white/50 text-white font-semibold px-5 py-3 hover:bg-white/10 transition"
-                >
-                  Saber mais
-                </a>
-              </div>
+              
+              
             </div>
   
             {/* Imagem à direita */}

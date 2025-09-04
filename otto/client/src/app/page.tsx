@@ -6,10 +6,12 @@ import Banner from "@/components/home/Banner/Banner";
 export default function Page() {
     return (
         <div className="flex flex-col min-h-screen">
-            <Header />
-            <Banner className="flex-grow" />
-            <Card />
-            <Footer />
-        </div>
+        <Header />
+        <main className="flex-grow">
+          <Banner />
+          <Card />
+        </main>
+        <Footer />
+      </div>
     );
 }
