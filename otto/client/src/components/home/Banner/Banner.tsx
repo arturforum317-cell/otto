@@ -3,7 +3,7 @@
 export default function BannersPage() {
   return (
     <div className="flex flex-col items-center bg-gray-50  px-4">
-      
+
      <section className="mx-auto max-w-7xl px-6 py-16">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
             Seção de conteúdo
@@ -17,7 +17,7 @@ export default function BannersPage() {
         </section>
 <div className="flex flex-col md:flex-row items-center max-w-6xl w-full bg-white shadow-lg rounded-xl overflow-hidden h-[450px] mb-12">
   <img
-    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+    src="/1.png"
     alt="Banner 1"
     className="w-full md:w-1/2 h-full object-cover"
   />
@@ -41,7 +41,7 @@ export default function BannersPage() {
 {/* Banner 2 - Imagem direita, botões verticais, altura maior */}
 <div className="flex flex-col md:flex-row-reverse items-center max-w-6xl w-full bg-white shadow-lg rounded-xl overflow-hidden h-[450px] mb-12">
   <img
-    src="https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=600&q=80"
+    src="/4.png"
     alt="Banner 2"
     className="w-full md:w-1/2 h-full object-cover"
   />
@@ -68,7 +68,7 @@ export default function BannersPage() {
     className="w-screen h-[600px] bg-cover bg-center bg-no-repeat flex items-center justify-center text-white mb-0"
     style={{
       backgroundImage:
-        "url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80')",
+        "url('2.png')",
     }}
   >
     <div className="bg-black/40 p-8 rounded-lg text-center">

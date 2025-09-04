@@ -50,7 +50,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="border-t border-white border-opacity-30 mt-6 pt-4 text-center text-sm opacity-80">
+      <div className="border-t border-white border-opacity-30 mt-6 pt-3 text-center text-sm opacity-80">
         © {new Date().getFullYear()} SuaMarca. Todos os direitos reservados.
       </div>
     </footer>

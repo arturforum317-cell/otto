@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Page() {
     return (
       <main className="min-h-screen bg-white">
@@ -20,9 +22,11 @@ export default function Page() {
             {/* Imagem à direita */}
             <div className="w-full flex justify-center md:justify-end">
               <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1400&auto=format&fit=crop"
+                src="/1.png"
                 alt="Ilustração do produto"
-                className="w-full max-w-md md:max-w-lg h-auto rounded-2xl shadow-lg object-cover"
+                width={500}   // largura obrigatória
+              height={500}  // altura obrigatória
+              className="w-full max-w-md md:max-w-lg h-auto rounded-2xl shadow-lg object-cover"
               />
             </div>
           </div>

@@ -41,20 +41,19 @@ export default function About() {
         </div>
       </section>
 
-      {/* Seção 3 - Gradiente de fundo */}
-      <section className="min-h-screen flex items-center justify-center px-6 py-16 bg-gradient-to-r from-green-400 via-green-100 to-green-400">
-        <div className="max-w-3xl text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-400">
-            Olhando para o Futuro
-          </h2>
-          <p className="text-lg md:text-xl leading-relaxed mb-6">
-            Estamos em constante evolução, integrando tecnologia, meio ambiente e praticidade.
-          </p>
-          <p className="text-lg md:text-xl leading-relaxed">
-            A cada passo, buscamos um futuro mais limpo, inteligente e sustentável.
-          </p>
-        </div>
-      </section>
+      <section className="min-h-screen flex items-center justify-center px-6 py-16 bg-gradient-to-br from-green-400 via-green-100 to-green-400">
+  <div className="max-w-3xl text-center">
+    <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-400">
+      Olhando para o Futuro
+    </h2>
+    <p className="text-lg md:text-xl leading-relaxed mb-6">
+      Estamos em constante evolução, integrando tecnologia, meio ambiente e praticidade.
+    </p>
+    <p className="text-lg md:text-xl leading-relaxed">
+      A cada passo, buscamos um futuro mais limpo, inteligente e sustentável.
+    </p>
+  </div>
+</section>
     </div>
   );
 }
