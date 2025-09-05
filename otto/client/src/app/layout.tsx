@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cardforge",
-  description: "Cardforge",
+  title: "Otto",
+  description: "Otto",
 
   openGraph: {
     images: [

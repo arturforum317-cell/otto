@@ -2,6 +2,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from "next/image";
 
 const GridSquares = () => {
   return (
@@ -17,18 +18,16 @@ const GridSquares = () => {
       </Head>
 
       <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-purple-50 p-4">
-        <h1 className="text-3xl font-bold text-gray-800 mb-8">APLICATIVOS</h1>
-        <section className="mx-auto max-w-7xl px-6 py-46">
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
-            Seção de conteúdo
-          </h2>
-          <p className="mt-4 text-gray-600 max-w-3xl">
-            Coloque o restante do conteúdo da sua página aqui. O primeiro banner
-            cobre toda a largura horizontal, com fundo verde escuro, texto à
-            esquerda e imagem à direita. O segundo banner exibe duas imagens lado
-            a lado.
-          </p>
-        </section>
+  <h1 className="text-3xl font-bold text-gray-800 mb-8">APLICATIVOS</h1>
+
+  <section className="mx-auto max-w-7xl px-6 py-16 text-center">
+    <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
+      Veja e experimente um dos nossos aplicativos
+    </h2>
+    <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+      Selecione abaixo o aplicativo do seu desejo, você pode estar testando antes de adquirir.
+    </p>
+  </section>
         {/* Linha com três blocos */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
           
@@ -40,13 +39,13 @@ const GridSquares = () => {
               </h2>
               <div className="relative w-full h-64 rounded-xl overflow-hidden mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80"
+                  src="/Gemini_Generated_Image_hzm56khzm56khzm5.png"
                   alt="Paisagem natural com montanhas e lago"
                   className="w-full h-full object-cover"
                 />
               </div>
               <p className="text-gray-600 text-center">
-                Beleza natural das montanhas e lagos.
+                Simulador de instalação de painéis solares.
               </p>
             </div>
           </Link>
@@ -59,13 +58,13 @@ const GridSquares = () => {
               </h2>
               <div className="relative w-full h-64 rounded-xl overflow-hidden mb-4">
                 <img
-                  src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80"
+                  src="/Gemini_Generated_Image_nnolwcnnolwcnnol.png"
                   alt="Vista aérea de uma cidade moderna"
                   className="w-full h-full object-cover"
                 />
               </div>
               <p className="text-gray-600 text-center">
-                Panorama urbano de uma metrópole movimentada.
+                Aplicativo que detectar animais.
               </p>
             </div>
           </Link>
@@ -77,7 +76,7 @@ const GridSquares = () => {
         </div>
 
         <footer className="mt-12 text-gray-500 text-sm text-center">
-          <p>Aplicativos - Layout horizontal</p>
+          <p>Em breve mais aplicativos</p>
         </footer>
       </div>
     </>

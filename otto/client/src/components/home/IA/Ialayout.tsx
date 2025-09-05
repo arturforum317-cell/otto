@@ -9,11 +9,10 @@ export default function Page() {
             {/* Texto à esquerda */}
             <div className="space-y-4">
               <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-                Seu título impactante aqui
+                Seu títu
               </h1>
               <p className="text-base md:text-lg opacity-90">
-                Uma breve descrição do seu produto/serviço. Explique o valor
-                em 1–2 frases e convide o usuário a agir.
+                Uma brer.
               </p>
               
               
@@ -22,7 +21,7 @@ export default function Page() {
             {/* Imagem à direita */}
             <div className="w-full flex justify-center md:justify-end">
               <img
-                src="/1.png"
+                src="/ere.gif"
                 alt="Ilustração do produto"
                 width={500}   // largura obrigatória
               height={500}  // altura obrigatória
@@ -35,13 +34,10 @@ export default function Page() {
         {/* Conteúdo abaixo (exemplo) */}
         <section className="mx-auto max-w-7xl px-6 py-16">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
-            Seção de conteúdo
+            Seçã
           </h2>
           <p className="mt-4 text-gray-600 max-w-3xl">
-            Coloque o restante do conteúdo da sua página aqui. O primeiro banner
-            cobre toda a largura horizontal, com fundo verde escuro, texto à
-            esquerda e imagem à direita. O segundo banner exibe duas imagens lado
-            a lado.
+            Coloque .
           </p>
         </section>
   
@@ -50,14 +46,14 @@ export default function Page() {
           <div className="mx-auto max-w-7xl px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="w-full flex justify-center">
               <img
-                src="https://images.unsplash.com/photo-1506765515384-028b60a970df?q=80&w=800&auto=format&fit=crop"
+                src="qwe.jpeg"
                 alt="Imagem 1"
                 className="w-full max-w-md h-auto rounded-2xl shadow-md object-cover"
               />
             </div>
             <div className="w-full flex justify-center">
               <img
-                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=800&auto=format&fit=crop"
+                src="asd.png"
                 alt="Imagem 2"
                 className="w-full max-w-md h-auto rounded-2xl shadow-md object-cover"
               />
@@ -68,13 +64,10 @@ export default function Page() {
         {/* Conteúdo abaixo (exemplo) */}
         <section className="mx-auto max-w-7xl px-6 py-16">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
-            Seção de conteúdo
+            Seçã
           </h2>
           <p className="mt-4 text-gray-600 max-w-3xl">
-            Coloque o restante do conteúdo da sua página aqui. O primeiro banner
-            cobre toda a largura horizontal, com fundo verde escuro, texto à
-            esquerda e imagem à direita. O segundo banner exibe duas imagens lado
-            a lado.
+            Col.
           </p>
         </section>
   

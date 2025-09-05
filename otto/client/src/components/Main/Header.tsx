@@ -78,56 +78,55 @@ export default function Header() {
       </div>
 
       {/* Navegação mobile */}
-      {menuOpen && (
-        <div className="md:hidden bg-green-400 shadow-md">
-          <ul className="flex flex-col gap-4 px-6 py-4">
-          <li>
-              <Link
-                href="/"
-                onClick={() => setMenuOpen(false)}
-                className={`transition ${
-                  isActive("/") ? "text-white font-bold" : "hover:text-white"
-                }`}
-              >
-                Início
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/Contatos"
-                onClick={() => setMenuOpen(false)}
-                className={`transition ${
-                  isActive("/Contatos") ? "text-white font-bold" : "hover:text-white"
-                }`}
-              >
-                Contatos
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/aplics"
-                onClick={() => setMenuOpen(false)}
-                className={`transition ${
-                  isActive("/aplics") ? "text-white font-bold" : "hover:text-white"
-                }`}
-              >
-                Aplicativos
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about"
-                onClick={() => setMenuOpen(false)}
-                className={`transition ${
-                  isActive("/about") ? "text-white font-bold" : "hover:text-white"
-                }`}
-              >
-                Sobre
-              </Link>
-            </li>
-          </ul>
-        </div>
-      )}
+      {/* Navegação mobile */}
+{menuOpen && (
+  <div className="md:hidden absolute top-16 left-0 w-full bg-green-400 shadow-md z-40">
+    <ul className="flex flex-col divide-y divide-white/40">
+      <li className="text-center md:text-left">
+        <Link
+          href="/"
+          onClick={() => setMenuOpen(false)}
+          className={`block py-3 transition ${
+            isActive("/") ? "text-white font-bold" : "hover:text-white"
+          }`}
+        >
+          Início
+        </Link>
+      </li>
+      <li className="text-center md:text-left">
+        <Link
+          href="#footer"
+          onClick={() => setMenuOpen(false)}
+          className="block py-3 transition hover:text-white"
+        >
+          Contatos
+        </Link>
+      </li>
+      <li className="text-center md:text-left">
+        <Link
+          href="/aplics"
+          onClick={() => setMenuOpen(false)}
+          className={`block py-3 transition ${
+            isActive("/aplics") ? "text-white font-bold" : "hover:text-white"
+          }`}
+        >
+          Aplicativos
+        </Link>
+      </li>
+      <li className="text-center md:text-left">
+        <Link
+          href="/about"
+          onClick={() => setMenuOpen(false)}
+          className={`block py-3 transition ${
+            isActive("/about") ? "text-white font-bold" : "hover:text-white"
+          }`}
+        >
+          Sobre
+        </Link>
+      </li>
+    </ul>
+  </div>
+)}
     </header>
   );
 }

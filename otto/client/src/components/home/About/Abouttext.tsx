@@ -8,14 +8,14 @@ export default function About() {
         className="min-h-screen flex items-center justify-center bg-cover bg-center text-white px-6 py-16"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80')",
+            "url('https://cdn.pixabay.com/photo/2016/11/18/22/34/dark-1837186_1280.jpg')",
         }}
       >
-        <div className="bg-black bg-opacity-20% p-10 rounded-xl max-w-3xl text-center">
+        <div className=" text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Sobre Nós</h1>
           <p className="text-lg md:text-xl leading-relaxed">
             Acreditamos na força da inovação para transformar o mundo.
-            Energia limpa, acessível e com tecnologia de ponta.
+          
           </p>
         </div>
       </section>
@@ -31,7 +31,7 @@ export default function About() {
             Nosso Propósito
           </h2>
           <p className="text-lg md:text-xl leading-relaxed mb-6">
-            Facilitamos o acesso a soluções inteligentes em energia renovável e tecnologia.
+            Facilitamos o acesso a soluções inteligentes usando a tecnologia.
             Pequenas atitudes podem transformar o planeta.
           </p>
           <p className="text-lg md:text-xl leading-relaxed">

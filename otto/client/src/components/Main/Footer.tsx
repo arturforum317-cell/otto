@@ -12,10 +12,10 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Institucional</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:underline">Sobre Nós</a></li>
-            <li><a href="#" className="hover:underline">Termos de Uso</a></li>
-            <li><a href="#" className="hover:underline">Política de Privacidade</a></li>
-            <li><a href="#" className="hover:underline">Carreiras</a></li>
+            <li><a href="/about" className="hover:underline">Sobre Nós</a></li>
+            <li><a href="/about" className="hover:underline">Termos de Uso</a></li>
+            <li><a href="/about" className="hover:underline">Política de Privacidade</a></li>
+            <li><a href="/about" className="hover:underline">Carreiras</a></li>
           </ul>
         </div>
 
@@ -23,9 +23,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Contato</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: contato@suamarca.com</li>
-            <li>Telefone: (11) 99999-9999</li>
-            <li>Endereço: Rua Exemplo, 123 - São Paulo, SP</li>
+            <li>Email: Artuforum317@gmail.com</li>
           </ul>
         </div>
 
@@ -51,7 +49,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="border-t border-white border-opacity-30 mt-6 pt-3 text-center text-sm opacity-80">
-        © {new Date().getFullYear()} SuaMarca. Todos os direitos reservados.
+        © {new Date().getFullYear()} Otto. Todos os direitos reservados.
       </div>
     </footer>
   );
