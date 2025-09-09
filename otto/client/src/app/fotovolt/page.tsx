@@ -1,6 +1,6 @@
 import Header from "@/components/Main/Header";
 import Footer from "@/components/Main/Footer";
-import Card from "@/components/home/card/Card";
+import Card from "@/components/home/Card/Card";
 import Fotovoltvideo from "@/components/home/fotovolt/Fotovoltvideo";
 
 export const metadata = {
