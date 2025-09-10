@@ -1,11 +1,8 @@
 import Header from "@/components/Main/Header";
 import Footer from "@/components/Main/Footer";
-import Card from "@/components/home/Card/Card";
 import Banner from "@/components/home/Banner/Banner";
 
-export const metadata = {
-  title: "Otto"
-};
+
 
 
 export default function Page() {
@@ -14,7 +11,6 @@ export default function Page() {
         <Header />
         <main className="flex-grow">
           <Banner />
-          <Card />
         </main>
         <Footer />
       </div>
